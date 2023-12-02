@@ -30,7 +30,7 @@
     <!-- Navbar -->
     <nav class="navbar nav-tabs navbar-expand-sm bg-dark-subtle pb-sm-0">
       <!-- Container -->
-      <div class="container">
+      <div class="container-md">
         <!-- Navbar-Brand -->
         <a class="navbar-brand" href="index.html">Jaymin Bhavsar</a>
         <!-- Navbar-Toggler -->
@@ -43,19 +43,37 @@
           <!-- Nav -->
           <ul class="nav">
             <li class="nav-item">
-              <a href="" class="nav-link active">Home</a>
+              <a href="" class="nav-link active" data-bs-toggle="tab" data-bs-target="#pages" data-bs-slide-to="0">Home</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">About</a>
+              <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#pages" data-bs-slide-to="1">About</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Projects</a>
+              <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#pages" data-bs-slide-to="2">Projects</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+  <!-- Main - Container -->
+  <main class="container-md">
+    <!-- Carousel -->
+    <div class="carousel carousel-fade" id="pages">
+      <!-- Home -->
+      <div class="carousel-item active">
+        
+      </div>
+      <!-- About -->
+      <div class="carousel-item">
+
+      </div>
+      <!-- Projects -->
+      <div class="carousel-item">
+
+      </div>
+    </div>
+  </main>
   <!-- Script -->
   <!-- - Bootstrap 5.3.2 -->
   <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
