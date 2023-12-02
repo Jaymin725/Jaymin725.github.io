@@ -2,10 +2,12 @@
 :root {
   /* Colors */
   --primary: #0FF;
+  --primary-rgb: 0, 255, 255; 
 }
 
 /* Navbar Brand */
 .navbar-brand {
-  --bs-navbar-brand-color: var(--primary);
+  --bs-navbar-brand-color: rgba(var(--primary-rgb), 0.80);
+  --bs-navbar-brand-hover-color: var(--primary);
   font-family: MajorMonoDisplay;
 }
