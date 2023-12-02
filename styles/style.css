@@ -1,0 +1,11 @@
+/* Root */
+:root {
+  /* Colors */
+  --primary: #0FF;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  --bs-navbar-brand-color: var(--primary);
+  font-family: MajorMonoDisplay;
+}
