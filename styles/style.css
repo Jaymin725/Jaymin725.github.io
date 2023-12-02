@@ -13,6 +13,17 @@
   -webkit-text-stroke: 1px rgba(var(--primary-rgb), 0.75);
 }
 
+/* Stroke-text */
+.stroke-text {
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: -webkit-linear-gradient( var(--primary), rgba(var(--primary-rgb), 0) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px var(--primary);
+  -webkit-text-fill-color: transparent;
+  writing-mode: vertical-lr;
+}
+
 /* Navbar Brand */
 .navbar-brand {
   --bs-navbar-brand-color: rgba(var(--primary-rgb), 0.75);
