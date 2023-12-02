@@ -7,7 +7,23 @@
 
 /* Navbar Brand */
 .navbar-brand {
-  --bs-navbar-brand-color: rgba(var(--primary-rgb), 0.80);
+  --bs-navbar-brand-color: rgba(var(--primary-rgb), 0.75);
   --bs-navbar-brand-hover-color: var(--primary);
   font-family: MajorMonoDisplay;
+  transition: color 200ms linear;
+}
+
+/* Nav Tabs */
+.nav-tabs {
+  --bs-nav-tabs-border-color: var(--primary);
+  --bs-nav-tabs-border-radius: var(--bs-border-radius-lg);
+  --bs-nav-tabs-link-hover-border-color: rgba(var(--primary-rgb), 0.75) rgba(var(--primary-rgb), 0.75) transparent;
+  --bs-nav-tabs-link-active-border-color: var(--primary) var(--primary) transparent;
+}
+
+/* Nav Link */
+.nav-link {
+  --bs-nav-link-color: rgba(var(--primary-rgb), 0.75);
+  --bs-nav-link-hover-color: var(--primary);
+  transition: color 200ms linear;
 }
