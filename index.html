@@ -57,26 +57,74 @@
     </nav>
   </header>
   <!-- Main - Container -->
-  <main class="container-md">
+  <main class="container-md my-5">
     <!-- Carousel -->
     <div class="carousel carousel-fade" id="pages">
       <!-- Home -->
       <div class="carousel-item active">
-        
+        <!-- Container -->
+        <div class="container">
+          <!-- Row -->
+          <div class="row min-vh-100">
+            <!-- Logo -->
+            <!-- Col -->
+            <div class="col-md d-none d-md-flex justify-content-center align-items-center p-5 p-md-0">
+              <img src="images/logo.png" alt="" class="w-75 border border-3 rounded-circle" style="border-color: var(--primary) !important;">
+            </div>
+            <!-- Col -->
+            <div class="col-md d-flex align-items-center">
+              <!-- Card -->
+              <div class="card flex-grow-1 bg-dark-subtle m-sm-5 m-md-0">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Row -->
+                  <div class="row">
+                    <!-- Col -->
+                    <div class="col">
+                      <h3 class="card-title text-light">Hello, I'm Jaymin</h3>
+                      <h5 class="card-subtitle"><span id="msg"></span></h5>
+                    </div>
+                    <!-- Col 2 -->
+                    <div class="col-2 d-flex align-items-center d-md-none">
+                      <img src="images/logo.png" alt="" class="img-fluid rounded-circle">
+                    </div>
+                  </div>
+                  <!-- Badge -->
+                  <span
+                    class="position-absolute spinner-grow spinner-grow-sm top-0 start-100 translate-middle" style="background-color: var(--primary);"></span>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer p-2">
+                  <!-- Container -->
+                  <div class="container">
+                    <!-- Row -->
+                    <div class="row column-gap-2">
+                      <a class="col btn btn-outline-light btn-lg" href="tel:+919054153133"><i class="bi bi-telephone-fill"></i> Call</a>
+                      <a class="col btn btn-outline-light btn-lg" href="mailto:jayminbhavsar07@gmail.com"><i class="bi bi-envelope-fill"></i> Email</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- About -->
       <div class="carousel-item">
-
+        About
       </div>
       <!-- Projects -->
       <div class="carousel-item">
-
+        Projects
       </div>
     </div>
   </main>
   <!-- Script -->
   <!-- - Bootstrap 5.3.2 -->
   <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  <!-- - Typed JS -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="scripts/typed.js"></script>
 </body>
 
 </html>

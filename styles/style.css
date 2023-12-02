@@ -5,6 +5,14 @@
   --primary-rgb: 0, 255, 255; 
 }
 
+/* Gradient Text */
+.gradient-text {
+  background: -webkit-linear-gradient(0deg, var(--primary), rgba(var(--primary-rgb), 0.25) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(var(--primary-rgb), 0.75);
+}
+
 /* Navbar Brand */
 .navbar-brand {
   --bs-navbar-brand-color: rgba(var(--primary-rgb), 0.75);
